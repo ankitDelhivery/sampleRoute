@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.camel:camel-test-spring:${camel.version}">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-test-spring/${camel.version}/camel-test-spring-${camel.version}.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-test-spring/${camel.version}/camel-test-spring-${camel.version}-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-test-spring/${camel.version}/camel-test-spring-${camel.version}-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

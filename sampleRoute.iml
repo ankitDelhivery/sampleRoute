@@ -57,5 +57,17 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.5" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.5" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-spring-boot:${camel.version}" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-script:${camel.version}" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-spring-javaconfig:${camel.version}" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-aws:${camel.version}" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-mail:${camel.version}" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-jsonpath:${camel.version}" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-jackson:${camel.version}" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-http:${camel.version}" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-ahc:${camel.version}" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-test:${camel.version}" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-test-spring:${camel.version}" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-testng:${camel.version}" level="project" />
   </component>
 </module>
