@@ -1,0 +1,32 @@
+[
+  {
+    "firstName":"Mark",
+    "lastName":"Zuckerberg",
+    "address":{ "house":1,
+    			"street":"Hacker Way",
+    			"city":"Mountain View"
+    			}
+  },
+  {
+    "firstName":"Larry",
+    "lastName":"Page",
+    "address":{ "house":21,
+    			"street":"Castro Street",
+    			"city":"Mountain View"
+    			}
+  },{
+    "firstName":"Sergey",
+    "lastName":"Brin",
+    "address":{ "house":31,
+    			"street":"Castro Street",
+    			"city":"Mountain View"
+    			}
+  },{
+    "firstName":"Bill",
+    "lastName":"Gates",
+    "address":{ "house":10,
+    			"street":"Seattle Main Road",
+    			"city":"Redmond"
+    			}
+  }
+]
