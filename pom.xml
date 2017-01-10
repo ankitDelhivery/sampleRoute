@@ -7,31 +7,11 @@
     <artifactId>sampleRoute</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <properties>
-        <camel.version>RELEASE</camel.version>
-        <log4j.version>1.2.17</log4j.version>
-    </properties>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.3.RELEASE</version>
-    </parent>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.jayway.jsonpath</groupId>
-            <artifactId>json-path</artifactId>
-            <scope>test</scope>
+            <version>RELEASE</version>
         </dependency>
         <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
@@ -41,69 +21,17 @@
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-spring-boot</artifactId>
-            <version>${camel.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-script</artifactId>
-            <version>${camel.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-spring-javaconfig</artifactId>
-            <version>${camel.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-aws</artifactId>
-            <version>${camel.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-mail</artifactId>
-            <version>${camel.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-jsonpath</artifactId>
-            <version>${camel.version}</version>
+            <version>RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-jackson</artifactId>
-            <version>${camel.version}</version>
+            <version>RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-http</artifactId>
-            <version>${camel.version}</version>
-            <!-- use the same version as your Camel core version -->
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-ahc</artifactId>
-            <version>${camel.version}</version>
-            <!-- use the same version as your Camel core version -->
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-test</artifactId>
-            <version>${camel.version}</version>
-            <scope>test</scope>
-            <!-- use the same version as your Camel core version -->
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-test-spring</artifactId>
-            <version>${camel.version}</version>
-            <scope>test</scope>
-            <!-- use the same version as your Camel core version -->
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-testng</artifactId>
-            <version>${camel.version}</version>
-            <scope>test</scope>
+            <version>RELEASE</version>
             <!-- use the same version as your Camel core version -->
         </dependency>
     </dependencies>
@@ -135,23 +63,5 @@
         </pluginRepository>
     </pluginRepositories>
 </project>
-
-
-        <!--<dependency>-->
-            <!--<groupId>com.fasterxml.jackson.dataformat</groupId>-->
-            <!--<artifactId>jackson-dataformat-smile</artifactId>-->
-            <!--<version>RELEASE</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>com.fasterxml.jackson.dataformat</groupId>-->
-            <!--<artifactId>jackson-dataformat-core</artifactId>-->
-            <!--<version>RELEASE</version>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-            <!--<groupId>com.fasterxml.jackson.core</groupId>-->
-            <!--<artifactId>jackson-core</artifactId>-->
-            <!--<version>RELEASE</version>-->
-        <!--</dependency>-->
 
 
